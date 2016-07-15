@@ -2,8 +2,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <title>Formulario</title>
 </head>
 <body>
+ <form action="https://docs.google.com/spreadsheets/d/1g3xtyn6e2MDBN0N0ndSV7PTsH8Bnz3v4DRoi5UnO9Ms/edit">
+  <label>Edad: <input type="text" name="edad" /></label><br />
+  Género:
+  <input type="radio" id="M" name="genero" value="f" />
+  <label for="Mujer">Mujer</label>
+  <input id="H" type="radio" name="genero" value="m" />
+  <label for="Hombre">Hombre</label>
+  <p>¿Que te gusto màs del post?</p>
+     <input type="radio" name="opciòn" value="video" /> video
+     <input type="radio" name="opciòn" value="informaciòn" /> informaciòn
+     <input type="radio" name="opciòn" value="frase principal"/> Frase principal
+  <p>¿Desde què dispositivo nos lees?</p>
+     <select name="devices">
+      <option value="ipod">Pc</option>
+      <option value="ipod">Celular</option>
+       <option>Laptop</option>
+     </select>
+  <p>¿Como te enteraste de nosotros?</p>
+     <select name="devices">
+      <option value="ipod">Redes sociales</option>
+      <option value="ipod">Publicidad online</option>
+      <option value="ipod">Prensa Escrita</option>
+     </select>
+  <p>¿Tienes alguna sugerencia?</p>
+     <textarea name="commnts" cols="20" rows="4">Dejanos tus sugerencias...</textarea>
+     <input type="submit" value="Enviar" />
+     </form>
 </body>
 </html>
